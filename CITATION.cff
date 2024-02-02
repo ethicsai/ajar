@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+title: AJAR
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Benoît
+    family-names: Alcaraz
+  - given-names: Olivier
+    family-names: Boissier
+  - given-names: Rémy
+    family-names: Chaput
+  - given-names: Christopher
+    family-names: Leturc
+identifiers:
+  - type: doi
+    value: 10.5555/3545946.3598956
+repository-code: 'https://github.com/ethicsai/ajar/'
+url: 'https://ethicsai.github.io/ajar/'
+license: MIT

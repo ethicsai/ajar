@@ -1,0 +1,33 @@
+### Python
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+# C extensions
+*.so
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+# Built packages
+dist/
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+### JetBrains files
+.idea
+*.iml
+out
+gen
+
+### macOS
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
+# Thumbnails
+._*
