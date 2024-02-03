@@ -26,7 +26,7 @@ jobs:
     steps:
       # Get the source code
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
       # Install the (source code, not docs) dependencies (requirements.txt)
       # This is required to build the docs, as we import the source code
       - name: Install source code dependencies
@@ -43,10 +43,10 @@ jobs:
         run: cd docs && make -e html
       # Upload the docs as an artifact (required for deploying to Pages)
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v1
+        uses: actions/upload-pages-artifact@v3
         with:
           path: "docs/build/html"
       # Deploy the artifact (built docs) to Pages
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v2
+        uses: actions/deploy-pages@v4
